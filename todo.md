@@ -1,0 +1,2 @@
+- [x] Fix footer color transition - light gray footer clashes with dark section above it
+- [x] Add gradient transition between Newsletter section and Footer for smoother color blending

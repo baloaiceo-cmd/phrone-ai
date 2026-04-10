@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Phrone AI | 孚朗AI</title>
+    <meta name="description" content="Phrone AI (孚朗AI) - Bilingual tech media covering AI industry analysis, research frontiers, and technology trends. 专注人工智能领域的双语科技媒体。" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Phrone AI | 孚朗AI" />
+    <meta property="og:description" content="AI industry insights, research analysis, and technology trends — Phrone AI (孚朗AI)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://phrone.ai" />
+    <meta property="og:site_name" content="Phrone AI" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Phrone AI | 孚朗AI" />
+    <meta name="twitter:description" content="AI industry insights, research analysis, and technology trends" />
+
+    <!-- RSS Feeds -->
+    <link rel="alternate" type="application/rss+xml" title="Phrone AI RSS (English)" href="/api/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="孚朗AI RSS (中文)" href="/api/rss-zh.xml" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Phrone AI",
+      "alternateName": "孚朗AI",
+      "url": "https://phrone.ai",
+      "description": "AI industry insights, research analysis, and technology trends",
+      "sameAs": []
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Phrone AI",
+      "url": "https://phrone.ai",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://phrone.ai/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script
+      defer
+      src="%VITE_ANALYTICS_ENDPOINT%/umami"
+      data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
+  </body>
+
+</html>

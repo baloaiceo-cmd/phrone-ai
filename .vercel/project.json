@@ -1,0 +1,8 @@
+{
+  "projectId": "prj_OZzJ9ucKuYStsG5tgsJIocgBJCia",
+  "orgId": "team_OPn2tX2GjCNdJmqcL0XEpT1C",
+  "settings": {
+    "framework": "vite",
+    "outputDirectory": "dist/public"
+  }
+}
