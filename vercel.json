@@ -1,5 +1,6 @@
 {
+  "framework": null,
   "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "pnpm build:vercel",
-  "outputDirectory": "dist/public"
+  "buildCommand": "node scripts/build-vercel.mjs",
+  "outputDirectory": ".vercel/output"
 }
